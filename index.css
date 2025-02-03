@@ -83,3 +83,15 @@ body {
 #newGameButton:hover {
     background: #0056b3;
 }
+
+.H{
+    font-weight: 600;
+    color:blue;
+    text-align: right;
+    padding-top: 2rem;
+}
+
+.i{
+    font-weight: 500;
+    color: red;
+}
