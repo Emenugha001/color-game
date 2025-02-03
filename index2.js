@@ -8,7 +8,7 @@ const newGameButton = document.getElementById("newGameButton");
 let targetColor = "";
 let score = 0;
 
-// Function to generate a random color
+// Function to generate a random color ...random guy
 function getRandomColor() {
     return `rgb(${Math.floor(Math.random() * 256)}, 
                 ${Math.floor(Math.random() * 256)}, 
@@ -52,7 +52,7 @@ function revealColors(selectedButton, selectedColor) {
         gameStatus.textContent = "Correct! 🎉";
         score++;
     } else {
-        gameStatus.textContent = "Wrong! Score reset to 0 ❌";
+        gameStatus.textContent = "Wrong! 0 ❌";
         score = 0; // Reset score on wrong guess
     }
 
